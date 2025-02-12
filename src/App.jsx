@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       {user=='' ? <Login handleLogin={handleLogin}/> : null}
       {user=='user' ? <Home/> : null}
     </div>

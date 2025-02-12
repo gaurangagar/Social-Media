@@ -3,8 +3,12 @@ import Postcard from '../components/Postcard'
 
 const Home = () => {
   return (
-    <div>
-      <div className='span items-center justify-content p-2 m-2'>
+    <div className=''>
+      <div className='span items-center justify-content m-2 flex gap-1 grid grid-cols-3 gap-4 p-4'>
+        <Postcard/>
+        <Postcard/>
+        <Postcard/>
+        <Postcard/>
         <Postcard/>
         <Postcard/>
         <Postcard/>
